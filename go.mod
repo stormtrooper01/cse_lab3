@@ -1,4 +1,4 @@
-module github.com/stormtrooper01/cse-lab3
+module github.com/stormtrooper01/cse_lab3
 
 go 1.15
 
