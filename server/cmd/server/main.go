@@ -3,7 +3,7 @@ package main
 import (
     "database/sql"
     "flag"
-    "github.com/stormtrooper01/cse-lab3/server/db"
+    "github.com/stormtrooper01/cse_lab3/server/db"
     "log"
     "net/http"
     "os"
