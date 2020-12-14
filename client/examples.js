@@ -11,7 +11,7 @@ client.accountsList()
         console.dir(list);
     })
     .catch(e => {
-        console.log(Problem listing available accounts: ${e.message});
+        console.log(`Problem listing available accounts: ${e.message}`);
     });
 
 // Scenario 2: Make a transaction
@@ -24,5 +24,5 @@ client.transaction({ giverId: 2, receiverId: 1, sum: 2000.14 })
     console.log('Transaction completed');
   })
   .catch(e => {
-      console.log(Problem creating a new transaction: ${e.message});
+      console.log(`Problem creating a new transaction: ${e.message}`);
   });
