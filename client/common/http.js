@@ -12,7 +12,7 @@ const client = baseUrl => {
   return {
     get: path => {
       return new Promise((resolve, reject) => {
-        request`(${baseUrl}${path}`, { json: true }, (err, res, body) => {
+        request(`${baseUrl}${path}`, { json: true }, (err, res, body) => {
           if (err) {
             reject(err);
             return;
